@@ -9,12 +9,12 @@ package share.bean;
  * @author other
  */
 public class UserBean {
-
+    
     private String username;
     private String password;
     private String firstName;
     private String lastName;
-    private String  submit= "";
+    private String  submit= null;
     private boolean valid= false;
     private boolean submitted = false;
 
